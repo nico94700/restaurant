@@ -470,11 +470,13 @@ footer {
   .entree {
     background-color: #ededf0;
     height: 27rem;
-    width: 26rem;
-    border-top-left-radius: 7%;
+    /* width: 100%; */
+    border-top-left-radius: 14%;
     border-top-right-radius: 14%;
     display: flex;
     flex-direction: column;
+    /* margin: auto; */
+    max-width: 100%;
   }
   .order-item {
     display: flex;
@@ -487,18 +489,20 @@ footer {
   .plats {
     background-color: #ededf0;
     height: 27rem;
-    width: 26rem;
+    /* width: 26rem; */
     display: flex;
     flex-direction: column;
+    max-width: 100%;
   }
 
   .dessert {
     background-color: #ededf0;
     height: 39rem;
     position: absolute;
-    width: 26rem;
+    /* width: 26rem; */
     display: flex;
     flex-direction: column;
+    max-width: 100%;
   }
 
   .commander {
@@ -526,15 +530,16 @@ footer {
   }
 
   .main_header {
-    background: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background: url(./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-repeat: repeat;
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 69rem;
+    /* width: 101%; */
     height: 38rem;
-
-    max-width: 26rem;
+    /* max-width: 26rem; */
+    /* margin: initial; */
+    max-width: 100%;
   }
 
   .fleche {
