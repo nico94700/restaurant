@@ -466,7 +466,7 @@ footer {
 
 /*--------------------------------------Média query --------------------------------------------------------------*/
 
-@media screen and (min-width: 360px) and (max-width: 415px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
   .entree {
     margin: -27rem 0rem 5rem 0rem;
     background-color: #ededf0;
