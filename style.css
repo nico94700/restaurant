@@ -468,7 +468,6 @@ footer {
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .entree {
-    margin: -27rem 0rem 5rem 0rem;
     background-color: #ededf0;
     height: 27rem;
     width: 26rem;
@@ -486,7 +485,6 @@ footer {
   }
 
   .plats {
-    margin: -5rem 0rem 0rem 0rem;
     background-color: #ededf0;
     height: 27rem;
     width: 26rem;
@@ -495,7 +493,6 @@ footer {
   }
 
   .dessert {
-    margin: 20rem 0rem 0rem 0rem;
     background-color: #ededf0;
     height: 39rem;
     position: absolute;
