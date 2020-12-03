@@ -535,10 +535,9 @@ footer {
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    /* width: 101%; */
+
     height: 38rem;
-    /* max-width: 26rem; */
-    /* margin: initial; */
+
     max-width: 100%;
   }
 
