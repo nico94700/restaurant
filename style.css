@@ -615,8 +615,9 @@ footer {
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 69rem;
+
     height: 38rem;
+    max-width: 104%;
   }
 
   .fleche {
