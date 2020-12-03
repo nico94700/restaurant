@@ -26,6 +26,11 @@
   height: 64rem;
 }
 
+.main_header img {
+  display: flex;
+  margin: auto;
+}
+
 .position {
   text-align: center;
   padding: 1rem;
