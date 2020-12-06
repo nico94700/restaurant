@@ -646,7 +646,7 @@ footer {
   .entree {
     background-color: #ededf0;
     height: 32rem;
-    width: 64rem;
+    width: 50rem;
     border-top-left-radius: 7%;
     border-top-right-radius: 14%;
     display: flex;
@@ -664,16 +664,16 @@ footer {
   .plats {
     background-color: #ededf0;
     height: 27rem;
-    width: 64rem;
+    width: 50rem;
     display: flex;
     flex-direction: column;
   }
 
   .dessert {
     background-color: #ededf0;
-    height: 40rem;
+    height: 43rem;
     position: absolute;
-    width: 64rem;
+    width: 50rem;
     display: flex;
     flex-direction: column;
   }
@@ -688,7 +688,7 @@ footer {
     color: white;
     padding: 26px;
     border-radius: 15px;
-    margin: 17vh 0vh 0vh 38vh;
+    margin: 11vh 0vh 0vh 21vh;
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -704,14 +704,16 @@ footer {
 
   .main_header {
     background: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-repeat: repeat;
+    background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 55rem;
+    height: 49rem;
     max-width: 100%;
   }
 
-  .fleche {
-    position: absolute;
-    margin: -5rem 0rem 0rem -1rem;
+  .fleche i {
+    display: flex;
+    margin: 2rem 0rem 0rem 4rem;
   }
 }
