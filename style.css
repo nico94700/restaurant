@@ -180,6 +180,9 @@ h1 {
   padding: 1rem 0rem 0rem 1rem;
   font-family: "Brightons";
 }
+.dropdown:hover > #cart-dropdown {
+  display: block;
+}
 
 @media screen and (max-width: 1490px) {
   .property-card {

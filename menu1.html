@@ -17,8 +17,19 @@
         <div class="fleche">
             <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         </div>
+        <div class="dropdown">
+            <div id="cart">
+                <p><span id="in-cart-items-num">0</span> Articles</p>
+            </div>
+        
+            <ul id="cart-dropdown" hidden>
+                <li id="empty-cart-msg"><a>Votre panier est vide</a></li>
+                <li class="go-to-cart hidden"><a href="/panier.html">Voir le panier</a></li>
+            </ul>
+        </div>
         <header class="main_header">
     </div>
+    
     </header>
     <section class="entree">
         <h2>Entrées</h2>
@@ -109,6 +120,23 @@
                 </div>
             </div>
         </div>
+
+        <label for="q">Quantité: </label>
+        <select id="qt" name="q">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <button type="button" class="add-to-cart" data-id="432" data-name="Entrees" data-price="25,00" data-weight="97"
+            data-url="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">Ajouter au panier</button>
+
+
         <div class="order-item shadow-1">
             <div class="order-item__info">
                 <h3>Fricassée d'escargot</h3>
